@@ -2,7 +2,7 @@ import requests
 import re
 import os.path
 
-save_dir ="C:\\Users\\yil1\\Documents\\python\\images"
+save_dir ="C:\\Users\\xxx\\Documents\\images"
 proxy= {} # proxy = {'http':'xxx.xx.com:port_num'}
 
 page_url = 'https://www.bing.com'
