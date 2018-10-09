@@ -47,10 +47,13 @@ class DownloadBingImage():
             print("Network Error, Response Code is {}".format(load_img.status_code))
 
 def main():
+
     bing = DownloadBingImage(save_dir)
     image_url = bing.get_bing_image_url()
     if image_url:
         bing.save_bing_image(image_url)
+    else:
+        print('I will check the url later...')
 
 if __name__ == "__main__":
     main()

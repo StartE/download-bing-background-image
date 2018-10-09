@@ -8,8 +8,9 @@ A simple and elegant way to download beautiful image of [bing](https://cn.bing.c
 ## Example
 * set the *save_dir* of images
 ```py
-import bing 
-save_dir ="C:\\Users\\XXX\\Documents\\python\\images"
+import bing
+# modify it with your requirement
+save_dir ="images"
 
 download_bing = bing.DownloadBingImage(save_dir)
 image_url = download_bing.get_bing_image_url()
