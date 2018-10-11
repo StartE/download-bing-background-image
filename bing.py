@@ -53,7 +53,8 @@ def main():
     if image_url:
         bing.save_bing_image(image_url)
     else:
-        print('=======I will check the url later please wait for patience===========12')
+        print('=======I will check the url later please wait for patience===========123')
+
 
 
 if __name__ == "__main__":
